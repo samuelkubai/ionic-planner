@@ -1,0 +1,29 @@
+/* Empty. Add your own CSS if you like */
+ion-item-divider[light] {
+  color: #000;
+  background-color: #f4f4f4;
+}
+.tasks-list-header-icon{
+  font-size: 25px !important;
+  float: right !important;
+}
+
+ion-item-divider {
+  width: 100%;
+  z-index: 1000;
+  display: block;
+  min-height: 30px;
+  padding: 12px 16px 13px 16px;
+}
+
+
+/* Goals styling */
+*.float-right {
+  float: right;
+}
+.stats-title {
+  font-weight: 400;
+}
+.stats-info {
+  font-weight: 100;
+}

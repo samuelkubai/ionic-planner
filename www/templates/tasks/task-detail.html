@@ -1,0 +1,52 @@
+<ion-view view-title="Task #12">
+  <ion-content class="statusbar-padding">
+    <div class="card">
+      <div class="h5 title text-center">
+        T#12 Do this or that, just something.
+      </div>
+      <div class="item item-text-wrap text-center">
+        <span class="stats-title">Duration:</span>
+        <span class="stats-info">15:40:34</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="h5 title padding-left">
+        Timer
+
+        <span style="color: orange"
+              class="float-right padding-right"
+              ui-sref="tab.task-create({goalId: 1})">
+          Break
+        </span>
+      </div>
+      <div class="item item-input-inset">
+        <label class="item-input-wrapper">
+          <input type="number" placeholder="Set timer in mins">
+        </label>
+        <button class="button button-small button-clear button-positive">
+          Start
+        </button>
+      </div>
+      <div class="h2 text-center" style="font-weight: 200">
+        00:00:00
+      </div>
+      <div class="item item-text-wrap">
+        Duration: 00:30:42
+      </div>
+      <div class="item item-text-wrap">
+        Duration: 05:34:42
+      </div>
+      <div class="item item-text-wrap">
+        Duration: 01:30:42
+      </div>
+      <div class="item item-text-wrap">
+        Duration: 02:35:42
+      </div>
+    </div>
+
+    <div class="padding">
+      <button ui-sref="tab.goals" class="button button-block button-balanced">Complete</button>
+    </div>
+  </ion-content>
+</ion-view>

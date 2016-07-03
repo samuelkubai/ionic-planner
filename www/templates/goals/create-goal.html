@@ -1,0 +1,25 @@
+<ion-view view-title="Create Goal">
+  <ion-content class="statusbar-padding">
+    <form name="goal-create">
+      <ion-list>
+        <label class="item item-input item-floating-label">
+          <span class="input-label">Title</span>
+          <input type="text" placeholder="Title">
+        </label>
+        <label class="item item-input item-select" name="tipo_id" ng-model="registro.tipo_id">
+          <div class="input-label">Priority</div>
+          <select ng-model="registro.tipo_id">
+            <option value="serious">Serious</option>
+            <option value="moderate">Moderate</option>
+            <option value="low">Low</option>
+          </select>
+        </label>
+      </ion-list>
+
+      <div class="padding">
+        <button ui-sref="tab.goals" class="button button-block button-positive">Create Goal</button>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
+

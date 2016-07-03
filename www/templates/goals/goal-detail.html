@@ -1,0 +1,42 @@
+<ion-view view-title="Goal #12">
+  <ion-content class="statusbar-padding">
+    <div class="card">
+      <div class="h4 title text-center">
+        G#12 Do this or that, just something.
+      </div>
+      <div class="item item-text-wrap">
+        <span class="stats-title">Total:</span>
+        <span class="stats-info">14 tasks</span>
+
+        <span class="float-right">
+          <span class="stats-title">Completed:</span>
+          <span class="stats-info">4 tasks</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="h5 title padding-left">
+        Tasks
+
+        <span style="color: #0c60ee"
+              class="float-right padding-right"
+              ui-sref="tab.task-create({goalId: 1})">
+          Add
+        </span>
+      </div>
+      <div class="item item-text-wrap" ui-sref="tab.task-detail({goalId: 1, taskId: 3})">
+        First do this
+      </div>
+      <div class="item item-text-wrap" ui-sref="tab.task-detail({goalId: 1, taskId: 3})">
+        Then do that
+      </div>
+      <div class="item item-text-wrap" ui-sref="tab.task-detail({goalId: 1, taskId: 3})">
+        Check if you did something
+      </div>
+      <div class="item item-text-wrap" ui-sref="tab.task-detail({goalId: 1, taskId: 3})">
+        Refactor the something did and submit
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
